@@ -8,27 +8,25 @@ Twitter sentiment analysis is a powerful tool used to understand public opinion 
 
 🔍 Features
 
-Preprocessing of raw tweet data (cleaning, tokenization, stopword removal)
+1. Preprocessing of raw tweet data (cleaning, tokenization, stopword removal)
 
-Vectorization using TF-IDF / CountVectorizer
+2. Model training using classification algorithms (e.g., Logistic Regression, Naive Bayes)
 
-Model training using classification algorithms (e.g., Logistic Regression, Naive Bayes)
+3. Sentiment prediction: Positive, Negative, or Neutral
 
-Sentiment prediction: Positive, Negative, or Neutral
+4. Performance evaluation with metrics like accuracy, precision, recall, and confusion matrix
 
-Performance evaluation with metrics like accuracy, precision, recall, and confusion matrix
-
-Visualization of sentiment distribution
+5. Visualization of sentiment distribution
 
 🛠️ Technologies Used
 
-Python
+1. Python
 
-Pandas, NumPy – Data manipulation
+2. Pandas, NumPy – Data manipulation
 
-Natural Language Processing
+3. Natural Language Processing
 
-Jupyter Notebook – Development environment
+4. Jupyter Notebook – Development environment
 
 📂 Dataset
 
@@ -38,21 +36,21 @@ The dataset used is sourced from Kaggle:
 
 The dataset contains:
 
-Tweet content
+1. Tweet content
 
-Timestamp
+2. Timestamp
 
-Sentiment label (Positive / Negative / Neutral)
+3. Sentiment label (Positive / Negative / Neutral)
 
 🚀 Getting Started
 
-Prerequisites
+Prerequisites-
 
 Ensure you have Python installed. Then install dependencies:
 
 pip install pandas numpy scikit-learn matplotlib seaborn nltk
 
-Running the Project
+Running the Project-
 
 Clone the repository:
 
@@ -63,5 +61,6 @@ cd Sentilytics---Twitter-Sentiment-Analyzer
 Run the Jupyter Notebook or Python script:
 
 jupyter notebook
+
 
 Explore the results, tweak the models, and visualize public sentiment!
