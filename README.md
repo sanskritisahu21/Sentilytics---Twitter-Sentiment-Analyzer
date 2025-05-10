@@ -54,9 +54,9 @@ Running the Project-
 
 Clone the repository:
 
-git clone https://github.com/sanskritisahu21/Sentilytics---Twitter-Sentiment-Analyzer.git
+git clone https://github.com/sanskritisahu21/Sentilytics-Twitter-Sentiment-Analyzer.git
 
-cd Sentilytics---Twitter-Sentiment-Analyzer
+cd Sentilytics-Twitter-Sentiment-Analyzer
 
 Run the Jupyter Notebook or Python script:
 
