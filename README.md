@@ -1,6 +1,43 @@
-# Twitter-sentiment-analysis-using-Python-Machine-Learning-Project-8
-This project walks you on how to create a twitter sentiment analysis model using python. Twitter sentiment analysis is performed to identify the sentiments of the people towards various topics. For this project, we will be analysing the sentiment of people towards Pfizer vaccines.    We will be using the data available on Kaggle to create this machine learning model. The collected tweets from Twitter will be analysed using machine learning to identify the different sentiments present in the tweets. The different sentiments identified in this project include positive sentiment, negative sentiment and neutral sentiment. We will also be using different classifiers to see which classifier gives the best model accuracy.
+📊 Sentilytics - Twitter Sentiment Analyzer
+🧠 About the Project
+Sentilytics is a sentiment analysis project that demonstrates how to build a machine learning model using Python to analyze Twitter data. The primary goal is to determine public sentiment—positive, negative, or neutral—towards Pfizer vaccines based on tweet content.
 
+Twitter sentiment analysis is a powerful tool used to understand public opinion and social dynamics around trending topics, brands, or events. In this project, we leverage a labeled dataset from Kaggle and apply machine learning techniques to draw meaningful insights from raw tweets.
 
-To see the complete video explanation of this topic, check out the following link:
-https://youtu.be/ng6L_wvREB4
+🔍 Features
+Preprocessing of raw tweet data (cleaning, tokenization, stopword removal)
+Vectorization using TF-IDF / CountVectorizer
+Model training using classification algorithms (e.g., Logistic Regression, Naive Bayes)
+Sentiment prediction: Positive, Negative, or Neutral
+Performance evaluation with metrics like accuracy, precision, recall, and confusion matrix
+Visualization of sentiment distribution
+
+🛠️ Technologies Used
+Python
+Pandas, NumPy – Data manipulation
+Natural Language Processing
+Jupyter Notebook – Development environment
+
+📂 Dataset
+The dataset used is sourced from Kaggle:
+🔗 Pfizer Vaccine Sentiment Dataset on Kaggle
+
+The dataset contains:
+Tweet content
+Timestamp
+Sentiment label (Positive / Negative / Neutral)
+
+🚀 Getting Started
+Prerequisites
+Ensure you have Python installed. Then install dependencies:
+pip install pandas numpy scikit-learn matplotlib seaborn nltk
+
+Running the Project
+Clone the repository:
+git clone https://github.com/sanskritisahu21/Sentilytics---Twitter-Sentiment-Analyzer.git
+cd Sentilytics---Twitter-Sentiment-Analyzer
+
+Run the Jupyter Notebook or Python script:
+jupyter notebook
+
+Explore the results, tweak the models, and visualize public sentiment!
